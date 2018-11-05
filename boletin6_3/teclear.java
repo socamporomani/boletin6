@@ -14,8 +14,8 @@ public class teclear {
     
     
     public void numero0(){
-        int num;
-        num=Integer.parseInt(JOptionPane.showInputDialog("escribe un numéro"));
+        double num;
+        num=Integer.parseDouble(JOptionPane.showInputDialog("escribe un numéro"));
         if(num>0){
             System.out.println("+");
         }
